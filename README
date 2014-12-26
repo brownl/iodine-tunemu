@@ -1,0 +1,16 @@
+iodine with tunemu
+------------------
+
+iodine 0.7.0 with tunemu on top - this allows iodine to work on iOS which does not have a TUN device.
+This is a newer version of iodine than the one at https://github.com/friedrich/iodine-tunemu
+
+iodine home page: http://code.kryo.se/iodine/
+tunemu home page: http://code.gerade.org/tunemu/
+
+modified files:
+ * src/Makefile
+ * src/tun.c
+
+added files:
+ * src/tunemu.c
+ * src/tunemu.h
